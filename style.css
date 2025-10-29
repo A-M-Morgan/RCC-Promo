@@ -102,5 +102,5 @@ footer {
 .date {
     margin-top: 40px;
     font-weight: bold;
-    text-align: right;
+    justify-content: right;
 }
