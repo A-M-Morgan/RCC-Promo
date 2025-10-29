@@ -77,12 +77,13 @@ button {
 }
 footer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Stack lines vertically */
+    align-items: center;    /* Center text */
     padding: 20px;
     background-color: #f0f0f0;
-    margin-top: 40px;
     font-size: 14px;
 }
 .date {
+    margin-top: 40px;
     font-weight: bold;
 }
