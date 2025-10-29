@@ -8,22 +8,27 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: #333333; /* Dark gray */
-    padding: 15px 20px;
+    justify-content: center; /* Centers the title horizontally */
+    background-color: #333333; /* Dark gray background */
+    padding: 20px;
+    position: relative;
 }
 .logo {
     height: auto;
     width: auto;
-    max-height: 80px; /* Or larger if needed */
+    max-height: 80px; /* Adjust as needed */
     margin-right: 20px;
+    position: absolute; /* Keeps logo fixed on the left */
+    left: 20px;
+    top: 10px;
 }
 header h1 {
     color: white; /* White text */
-    font-size: 40px; /* Increase size */
+    font-size: 36px; /* Increase size */
     font-weight: bold;
     text-align: center;
-    flex: 1; /* Center the title between logo and right edge */
-
+    margin: 0;
+    flex: 1; /* Ensures the title takes available space */
 }
 .input-section {
     display: flex;
@@ -79,8 +84,9 @@ button {
     margin-top: 10px;
     background-color: #eee;
     padding: 10px;
-    font-style: bold italic;
-}
+    font-style: bold;
+    font-size: 24px;
+    }
 footer {
     display: flex;
     flex-direction: column; /* Stack lines vertically */
@@ -96,4 +102,5 @@ footer {
 .date {
     margin-top: 40px;
     font-weight: bold;
+    text-align: right;
 }
