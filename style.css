@@ -16,11 +16,11 @@ header {
 .logo {
     height: auto;
     width: auto;
-    max-height: 80px; /* Adjust as needed */
+    max-height: 100px; /* Adjust as needed */
     margin-right: 20px;
     position: absolute; /* Keeps logo fixed on the left */
-    left: 20px;
-    top: 10px;
+    left: 15px;
+    top: 15px;
 }
 header h1 {
     color: white; /* White text */
